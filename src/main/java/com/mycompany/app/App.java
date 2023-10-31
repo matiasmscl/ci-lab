@@ -10,7 +10,7 @@ public class App {
     if (a==b && b==c && c!=0){
       return "es un triangulo equilatero";
     }
-    if (a==b && b!=0 && c!=0){
+    if (a==b && b!=c && b!=0 && c!=0){
       return "es un triangulo isoceles";
     }
     return "error no es un triangulo";
