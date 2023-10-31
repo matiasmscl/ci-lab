@@ -11,7 +11,7 @@ public class App {
       return "es un triangulo equilatero";
     }
     if (a==b && b!=0 && c!=0){
-      return "es un triangulo equilatero";
+      return "es un triangulo isoceles";
     }
     return "error no es un triangulo";
   } 
